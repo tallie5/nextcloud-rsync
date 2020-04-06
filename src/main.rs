@@ -1,3 +1,5 @@
+#![feature(vec_remove_item)]
+
 extern crate chrono;
 extern crate curl;
 extern crate fxhash;
