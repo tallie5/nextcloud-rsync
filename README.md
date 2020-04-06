@@ -30,7 +30,7 @@ Because Nextcloud does not provide hashes of files, differences between files ar
 `nextcloud-rsync ~~/remote-directory local-directory`  
 * Transfers all files from remote-directory to local-directory, updating modified files  
 
-`nextcloud-rsync --delete ~~/remote-directory local-directory`  
+`nextcloud-rsync --delete local-directory ~~/remote-directory`  
 * Transfers all files from local-directory to remote-directory, updating modified files and deleteing all files that are not in the source  
 
 ### Arguments
